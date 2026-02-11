@@ -1,0 +1,79 @@
+* {
+    touch-action: manipulation; /* отключает зум при двойном тапе */
+    user-select: none; /*Отрубаем выделение текста*/
+}
+
+body{
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    margin: 0;
+}
+
+audio {
+    display: block;
+    margin: auto;
+}
+
+
+#start {
+    background: url("tf9qgqivlsr71.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    font-size: 90px;
+    color: #cd25c3;
+    text-shadow: 5px 5px 0px #000;
+}
+
+button {
+    width: 25vw;
+    height: 10vh;
+    background: #cc498f;
+    color: #fff;
+    border: solid 5px white;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    font-size: 40px;
+    box-shadow: 10px 10px 10px #000;
+    font-family: "Century Gothic", Helvetica, sans-serif;
+}
+
+button:hover {
+    background: #b5196c;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+img {
+    display: block;
+    margin: auto;
+    height: 70vh;
+    transform: rotateY(180deg) scale(1);
+    transition: 0.1s all;
+}
+
+#game, #end {
+    background: url("www.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+}
+
+#game h1 {
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+#end h1 {
+    width: 50vw;
+    margin: auto;
+}
