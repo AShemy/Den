@@ -56,7 +56,6 @@ img {
     display: block;
     margin: auto;
     height: 70vh;
-    width: 50vw;
     transform: rotateY(180deg) scale(1);
     transition: 0.1s all;
 }
@@ -80,5 +79,9 @@ img {
 }
 
 @media (max-width: 700px) {
+    img {
+        width:90vw;
+    }
+}
 
 }
