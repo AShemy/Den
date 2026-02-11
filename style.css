@@ -55,7 +55,8 @@ button:hover {
 img {
     display: block;
     margin: auto;
-    width: 60vw;
+    max-width: 60vh;
+    width: 30vw;
     transform: rotateY(180deg) scale(1);
     transition: 0.1s all;
 }
@@ -69,7 +70,7 @@ img {
 }
 
 #game h1 {
-    padding-top: 5%;
+    padding-top: 3%;
     padding-bottom: 1%;
 }
 
@@ -79,9 +80,8 @@ img {
 }
 
 @media (max-width: 700px) {
-    img {
-        width:90vw;
+    img{
+        width: 80vw;
     }
+
 }
-
-
