@@ -6,6 +6,9 @@
 body{
     font-family: "Century Gothic", Helvetica, sans-serif;
     margin: 0;
+    background: url("tf9qgqivlsr71.png") repeat-y center center scroll;
+    background-size: cover;
+    background-attachment: scroll;
 }
 
 audio {
@@ -15,8 +18,6 @@ audio {
 
 
 #start {
-    background: url("tf9qgqivlsr71.png");
-    background-size: cover;
     height: 100vh;
     width: 100vw;
     margin: 0;
@@ -83,5 +84,11 @@ img {
     img{
         width: 80vw;
         max-height: 80vh;
+    }
+
+    #end h1 {
+        width: 90vw;
+        font-size: 60px;
+        margin: auto;
     }
 }
