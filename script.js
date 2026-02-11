@@ -1,4 +1,4 @@
-let x = 124;
+let x = 0;
 
 function goGame(){
     document.getElementById("start").style.display = "none";
@@ -88,4 +88,5 @@ function click11(){
         document.getElementById("game").style.display = "none";
         document.getElementById("end").style.display = "block";
     }
+
 }
