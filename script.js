@@ -1,4 +1,4 @@
-let x = 0;
+let x = 124;
 
 function goGame(){
     document.getElementById("start").style.display = "none";
