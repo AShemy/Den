@@ -7,7 +7,7 @@ function goGame(){
 
 function click11(){
     img = document.getElementById("img");
-    back = document.getElementById("game").style.background;
+    back = document.getElementById("game");
     speed = document.getElementById("img").style.transition;
     x++;
     document.getElementById("text").innerHTML = x + " очков";
@@ -24,8 +24,10 @@ function click11(){
         img.src = "2.png";
         if(x%2==0){
             img.style.transform = "rotate(5deg)";
+            back.style.backgroundSize = "cover";
         }else{
             img.style.transform = "rotate(-5deg)";
+            back.style.backgroundSize = "cover";
         }
     }else if(x>=30 && x<50){
         document.getElementById("m2").pause()
@@ -33,8 +35,10 @@ function click11(){
         img.src = "3.png";
         if(x%2==0){
             img.style.transform = "scale(1.1)";
+            back.style.backgroundSize = "cover";
         }else{
             img.style.transform = "scale(1)";
+            back.style.backgroundSize = "cover";
         }
     }else if(x>=50 && x<75){
         document.getElementById("m3").pause()
@@ -42,8 +46,10 @@ function click11(){
         img.src = "4.png";
         if(x%2==0){
             img.style.transform = "skew(5deg, 0deg)";
+            back.style.backgroundSize = "cover";
         }else{
             img.style.transform = "skew(-5deg, 0deg)";
+            back.style.backgroundSize = "cover";
         }
     }else if(x>=75 && x<100){
         document.getElementById("m4").pause()
@@ -51,8 +57,10 @@ function click11(){
         img.src = "5.png";
         if(x%2==0){
             img.style.transform = "rotate(5deg)";
+            back.style.backgroundSize = "cover";
         }else{
             img.style.transform = "rotate(-5deg)";
+            back.style.backgroundSize = "cover";
         }
     }else if(x>=100 && x<125){
         document.getElementById("m5").pause()
@@ -60,8 +68,10 @@ function click11(){
         img.src = "6.png";
         if(x%2==0){
             img.style.transform = "rotateY(180deg)";
+            back.style.backgroundSize = "cover";
         }else{
             img.style.transform = "rotateY(0deg)";
+            back.style.backgroundSize = "cover";
         }
     }else if(x>=125 && x<150){
         document.getElementById("m6").pause()
@@ -69,8 +79,10 @@ function click11(){
         img.src = "7.png";
         if(x%2==0){
             img.style.transform = "scale(1.1) rotate(5deg)";
+            back.style.backgroundSize = "cover";
         }else{
             img.style.transform = "scale(1) rotate(-5deg)";
+            back.style.backgroundSize = "cover";
         }
     }else if(x>=150){
         document.getElementById("game").style.display = "none";
