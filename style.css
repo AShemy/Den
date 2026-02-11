@@ -86,9 +86,15 @@ img {
         max-height: 80vh;
     }
 
+    #game h1 {
+        padding-top: 10vh;
+        padding-bottom: 5vh;
+    }
+
     #end h1 {
         width: 90vw;
         font-size: 60px;
         margin: auto;
     }
+
 }
