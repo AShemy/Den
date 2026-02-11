@@ -55,7 +55,7 @@ button:hover {
 img {
     display: block;
     margin: auto;
-    height: 70vh;
+    width: 60vw;
     transform: rotateY(180deg) scale(1);
     transition: 0.1s all;
 }
@@ -85,3 +85,4 @@ img {
 }
 
 }
+
